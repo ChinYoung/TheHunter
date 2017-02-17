@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+
+RewriteEngine on  
+
+RewriteRule ^(layout|css|js|images|cache|cronjob.php)($|/) - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d  
+
+RewriteRule ^(.*).html$ index.php?arg=$1&%{QUERY_STRING}  [L,QSA]
+RewriteRule ^(.*)$ index.php?arg=$1&%{QUERY_STRING}  [L,QSA]
+

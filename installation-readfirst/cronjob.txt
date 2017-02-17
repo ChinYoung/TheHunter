@@ -1,0 +1,1 @@
+0,30	*	*	*	*	 /usr/local/bin/php -q /home/admin/domains/**YOURDOMAIN**/public_html/cronjob.php *** YOUR SECRET KEY *** >>/home/admin/domains/**YOURDOMAIN**/public_html/logs/cronjoblog-`date +%d%m%y`.log
