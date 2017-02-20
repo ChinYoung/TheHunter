@@ -29,4 +29,4 @@ Project Management:
 * Export your email list via csv, txt or zip 
 * Export by Project or All Projects at once 
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i6n9R89MeT4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+YouTube: https://www.youtube-nocookie.com/embed/i6n9R89MeT4
